@@ -1,0 +1,7 @@
+{
+  "name": "github-paths",
+  "version": "0.0.1",
+  "description": "url paths for githubs \"hidden\" api",
+  "main": "index.js",
+  "license": "MIT"
+}
