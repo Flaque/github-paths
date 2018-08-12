@@ -30,7 +30,8 @@ Editing files:
 ```js
 const github = require("github-paths");
 
-const href = github("flaque/github-paths").edit("src/index.js");
+// https://github.com/flaque/github-paths/edit/master/index.js
+const href = github("flaque/github-paths").edit("index.js");
 ```
 
 Linking to source:
