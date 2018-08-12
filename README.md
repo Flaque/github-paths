@@ -2,6 +2,18 @@
 
 A tiny node module for getting URLs to github.
 
+## Installation
+
+```
+npm install --save github-paths
+```
+
+or with yarn
+
+```
+yarn add github-paths
+```
+
 ## Usage
 
 Creating new issues:
