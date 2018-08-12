@@ -3,5 +3,12 @@
   "version": "0.0.1",
   "description": "url paths for githubs \"hidden\" api",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "whatwg-url": "^6.5.0"
+  },
+  "scripts": {
+    "test": "ava"
+  }
 }
