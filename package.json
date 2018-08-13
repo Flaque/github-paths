@@ -10,5 +10,14 @@
   },
   "scripts": {
     "test": "ava"
-  }
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "github",
+    "url",
+    "paths",
+    "path"
+  ]
 }
