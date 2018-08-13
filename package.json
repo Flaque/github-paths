@@ -2,14 +2,15 @@
   "name": "github-paths",
   "version": "0.0.3",
   "description": "url paths for githubs \"hidden\" api",
-  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "ava": "^0.25.0",
     "whatwg-url": "^6.5.0"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "engines": {
     "node": ">=6"
@@ -19,5 +20,12 @@
     "url",
     "paths",
     "path"
-  ]
+  ],
+  "devDependencies": {
+    "microbundle": "^0.6.0"
+  },
+  "main": "dist/foo.js",
+  "umd:main": "dist/foo.umd.js",
+  "module": "dist/foo.m.js",
+  "source": "src/foo.js"
 }
