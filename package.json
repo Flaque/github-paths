@@ -10,7 +10,7 @@
   "scripts": {
     "test": "ava",
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch "
   },
   "engines": {
     "node": ">=6"
@@ -24,8 +24,8 @@
   "devDependencies": {
     "microbundle": "^0.6.0"
   },
-  "main": "dist/foo.js",
-  "umd:main": "dist/foo.umd.js",
-  "module": "dist/foo.m.js",
-  "source": "src/foo.js"
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "index.js"
 }
