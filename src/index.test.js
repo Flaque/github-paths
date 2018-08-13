@@ -1,5 +1,5 @@
-const test = require("ava");
-const github = require(".");
+import test from "ava";
+import github from ".";
 
 test("issue can correctly create a path", t => {
   t.deepEqual(

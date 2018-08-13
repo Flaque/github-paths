@@ -1,5 +1,5 @@
-const test = require("ava");
-const { isRepo } = require("./util");
+import test from "ava";
+import { isRepo } from "./util";
 
 test("a good repo will match", t => {
   t.true(isRepo("flaque/evan"));

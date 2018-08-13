@@ -5,15 +5,14 @@
   "license": "MIT",
   "dependencies": {
     "ava": "^0.25.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "whatwg-url": "^6.5.0"
   },
   "scripts": {
     "test": "ava",
     "build": "microbundle build src",
     "dev": "microbundle watch "
-  },
-  "engines": {
-    "node": ">=6"
   },
   "keywords": [
     "github",
@@ -26,5 +25,11 @@
   },
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
-  "module": "dist/index.m.js"
+  "module": "dist/index.m.js",
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  }
 }
