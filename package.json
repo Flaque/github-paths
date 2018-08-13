@@ -1,6 +1,6 @@
 {
   "name": "github-paths",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "url paths for githubs \"hidden\" api",
   "license": "MIT",
   "dependencies": {
@@ -18,10 +18,10 @@
     "path"
   ],
   "devDependencies": {
-    "microbundle": "^0.6.0",
+    "ava": "^0.25.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
-    "ava": "^0.25.0"
+    "microbundle": "^0.6.0"
   },
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
