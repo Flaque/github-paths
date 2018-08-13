@@ -7,4 +7,4 @@ function isRepo(repo) {
   return matchesOnlyOne && matchesExactly;
 }
 
-module.exports = { isRepo };
+export { isRepo };
