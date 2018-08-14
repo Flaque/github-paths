@@ -4,7 +4,7 @@
   "description": "url paths for githubs \"hidden\" api",
   "license": "MIT",
   "dependencies": {
-    "whatwg-url": "^6.5.0"
+    "universal-url": "^1.0.1"
   },
   "scripts": {
     "test": "ava",

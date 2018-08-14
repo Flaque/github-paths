@@ -1753,6 +1753,10 @@ hash-sum@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/hash-sum/-/hash-sum-1.0.2.tgz#33b40777754c6432573c120cc3808bbd10d47f04"
 
+hasurl@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hasurl/-/hasurl-1.0.0.tgz#e4c619097ae1e8fc906bee904ce47e94f5e1ea37"
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -3855,6 +3859,13 @@ unique-temp-dir@^1.0.0:
     mkdirp "^0.5.1"
     os-tmpdir "^1.0.1"
     uid2 "0.0.3"
+
+universal-url@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/universal-url/-/universal-url-1.0.1.tgz#f7385097f1809a1c8323b17898844d67547773d5"
+  dependencies:
+    hasurl "^1.0.0"
+    whatwg-url "^6.5.0"
 
 universalify@^0.1.0:
   version "0.1.2"

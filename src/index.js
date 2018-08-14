@@ -1,4 +1,4 @@
-import { URL } from "whatwg-url"; // Polyfill for browser/node URL
+require("universal-url").shim(); // URL polyfill
 import { isRepo } from "./util";
 
 const GITHUB_PATH = "https://github.com";
